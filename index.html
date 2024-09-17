@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sofa-cart</title>
+  <link rel="stylesheet" href="assets/sofa-cart.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  
+<div class="container-box min-h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500 flex items-center justify-center">
+  <div class="card-container md:w-[700px] md:min-h-[300px] w-[500px] h-[300px]  flex ">
+    <div class="sofa w-2/5 bg-gradient-to-bl from-cyan-400 to-blue-600">
+      <img class="max-w-full drop-shadow-lg shadow-blue-700 -mt-6" src="assets/images/sofa-3.avif" alt="">
+      <span class="grid place-items-center mt-10 md:mt-2 text-3xl md:text-4xl text-white"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+    </div>
+    <div class="list bg-white w-3/5 p-5 relative">
+      <div class="price flex justify-between text-2xl md:text-3xl items-center mb-4">
+        <div class="old-price text-[crimson] font-semibold line-through">$499.99</div>
+        <div class="new-price text-blue-700 font-semibold">$439.95</div>
+      </div>
+
+      <p class="mb-4 text-sm ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates aliquid nemo perspiciatis repellendus, aliquam accusamus quam provident, nihil modi ratione</p>
+      <div class="color-section flex items-center mb-6 mb:10">
+
+        <div class="flex justify-between w-[90px] mr-4">
+          <div class="text-[18px] font-semibold">Color</div>
+          <div class="text-[18px] font-semibold">:</div>
+        </div>
+     <div class="radio flex gap-3 md:gap-5 items-center ">
+      <input type="radio" name="radio" id="radio-1"hidden>
+      <label for="radio-1" class="cursor-pointer"></label>
+      <input type="radio" name="radio" id="radio-2" hidden >
+      <label for="radio-2" class="bg-pink-600 cursor-pointer"></label>
+      <input type="radio" name="radio" id="radio-3" hidden  checked >
+      <label for="radio-3" class="bg-blue-500 cursor-pointer"></label>
+      <input type="radio" name="radio" id="radio-4" hidden>
+      <label for="radio-4" class="bg-orange-600 cursor-pointer"></label>
+      <input type="radio" name="radio" id="radio-5" hidden>
+      <label for="radio-5" class="bg-slate-500 cursor-pointer"></label>
+      
+    </div>
+         
+   </div>
+   <div class="quantity-section flex items-center mb-2 md:mb-0">
+    <div class="flex justify-between w-[90px]">
+      <div class="text-[18px] font-semibold">Quantity</div>
+      <div class="text-[18px] font-semibold">:</div>
+    </div>
+    <form class="w-[40%] md:w-[50%] p-1 px-2 border-2 border-blue-400  mx-auto outline-none rounded-full flex justify-between items-center">
+      <span class="cursor-pointer text-xl text-blue-600 "><ion-icon name="remove-outline"></ion-icon></span>
+      <input type="text" class=" placeholder:text-xl placeholder:text-blue-600 w-10 mx-auto placeholder:text-center placeholder:font-semibold outline-none border-none" placeholder="20" >
+      <span class="cursor-pointer text-xl text-blue-600 font-bold"><ion-icon name="add-outline"></ion-icon></span>
+    </form>
+   </div>
+       
+   <div class="button-section md:px-10 flex justify-between items-center md:translate-y-full">
+    <button type="submit" class="p-2 text-center border-none outline-none  bg-gradient-to-bl from-cyan-400 to-blue-600 w-1/2 rounded-full text-white font-semibold">Add to cart </button>
+    <span class="cursor-pointer size-[35px] bg-gradient-to-bl from-cyan-400 to-blue-600 grid place-items-center text-white  rounded-full"><ion-icon name="share-social-outline"></ion-icon></span>
+    <span class="cursor-pointer size-[35px] bg-gradient-to-bl from-cyan-400 to-blue-600 grid place-items-center text-white  rounded-full"><ion-icon name="heart-outline"></ion-icon></span>
+   </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
